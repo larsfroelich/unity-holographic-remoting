@@ -1,0 +1,14 @@
+# ignore everything by default, only allow whitelisted files
+/*
+/*/
+
+# General whitelist
+!.gitignore
+!README.md
+!TODO.md
+
+
+# Unity: whitelist the Assets and ProjectSettings folders as well as build-info and plugins
+!Assets/
+!ProjectSettings/
+Assets/Plugins/Editor/
